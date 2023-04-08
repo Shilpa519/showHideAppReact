@@ -1,0 +1,66 @@
+.bg-container {
+  background: linear-gradient(#fa7257, #fc63a7);
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.heading {
+  color: #ffffff;
+  font-size: 45px;
+}
+
+.button-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.button {
+  border-radius: 6px;
+  padding: 15px;
+  border-color: transparent;
+  margin: 25px;
+  cursor: pointer;
+  color: #dd1264;
+  font-weight: 700;
+}
+
+.names-container {
+  display: flex;
+}
+
+.sfname {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  padding: 7px;
+  align-items: center;
+  font-weight: 700;
+  border-radius: 6px;
+  width: 250px;
+  margin: 25px;
+  height: 30vh;
+}
+
+.slname {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  align-items: center;
+  font-weight: 700;
+  border-radius: 6px;
+  width: 250px;
+  margin: 25px;
+  height: 30vh;
+}
+
+.hfname {
+  background-color: transparent;
+}
+
+.hlname {
+  background-color: transparent;
+}
